@@ -1,4 +1,6 @@
 @import 'bourbon/bourbon';
+@import 'scss/buttons';
+@import 'scss/navigation';
 
 .inputdemoErrors .inputErrorsApp {
   @include transition(all 2.0s ease-in-out);
@@ -10,8 +12,8 @@
   width: 100%;
 }
 md-content {
-  @include background-image(linear-gradient(to left, #ECE9E6 , #FFFFFF));
+  @include background(linear-gradient(to left, lightgrey, whitesmoke));
 }
 md-toolbar, .md-button.md-primary.md-raised {
-  @include background-image(linear-gradient(to left, coral , royalblue));
+  @include background-image(linear-gradient(to left, crimson, cornflowerblue));
 }

@@ -10,11 +10,11 @@
   width: 100%; }
 
 md-content {
-  background-image: -webkit-linear-gradient( right , #ECE9E6, #FFFFFF);
-  background-image: linear-gradient(to left, #ECE9E6, #FFFFFF); }
+  background: -webkit-linear-gradient( right , lightgrey, whitesmoke);
+  background: linear-gradient(to left, lightgrey, whitesmoke); }
 
 md-toolbar, .md-button.md-primary.md-raised {
-  background-image: -webkit-linear-gradient( right , coral, royalblue);
-  background-image: linear-gradient(to left, coral, royalblue); }
+  background-image: -webkit-linear-gradient( right , crimson, cornflowerblue);
+  background-image: linear-gradient(to left, crimson, cornflowerblue); }
 
 /*# sourceMappingURL=styles.css.map */
