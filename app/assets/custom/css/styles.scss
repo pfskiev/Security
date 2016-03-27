@@ -1,0 +1,17 @@
+@import 'bourbon/bourbon';
+
+.inputdemoErrors .inputErrorsApp {
+  @include transition(all 2.0s ease-in-out);
+  min-height: 48px;
+}
+.inputdemoErrors md-input-container > p {
+  font-size: 0.8em;
+  text-align: left;
+  width: 100%;
+}
+md-content {
+  @include background-image(linear-gradient(to left, #ECE9E6 , #FFFFFF));
+}
+md-toolbar, .md-button.md-primary.md-raised {
+  @include background-image(linear-gradient(to left, coral , royalblue));
+}

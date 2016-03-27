@@ -1,0 +1,20 @@
+.inputdemoErrors .inputErrorsApp {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  min-height: 48px; }
+
+.inputdemoErrors md-input-container > p {
+  font-size: 0.8em;
+  text-align: left;
+  width: 100%; }
+
+md-content {
+  background-image: -webkit-linear-gradient( right , #ECE9E6, #FFFFFF);
+  background-image: linear-gradient(to left, #ECE9E6, #FFFFFF); }
+
+md-toolbar, .md-button.md-primary.md-raised {
+  background-image: -webkit-linear-gradient( right , coral, royalblue);
+  background-image: linear-gradient(to left, coral, royalblue); }
+
+/*# sourceMappingURL=styles.css.map */

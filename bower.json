@@ -1,0 +1,27 @@
+{
+  "name": "threelock",
+  "authors": [
+    "Constantine Podlesny"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "^1.5.2",
+    "lodash": "^4.6.1",
+    "rxjs": "^4.1.0",
+    "tether": "^1.2.0",
+    "angular-material": "^1.0.6",
+    "angular-route": "^1.5.2"
+  }
+}
