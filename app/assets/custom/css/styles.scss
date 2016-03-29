@@ -1,19 +1,24 @@
 @import 'bourbon/bourbon';
+@import 'scss/variables';
 @import 'scss/buttons';
+@import 'scss/header';
 @import 'scss/navigation';
+@import 'scss/section';
+@import 'scss/footer';
 
 .inputdemoErrors .inputErrorsApp {
   @include transition(all 2.0s ease-in-out);
   min-height: 48px;
 }
-.inputdemoErrors md-input-container > p {
+.inputdemoErrors .md-input-container > p {
   font-size: 0.8em;
   text-align: left;
   width: 100%;
 }
-md-content {
+
+body, md-content {
   @include background(linear-gradient(to left, lightgrey, whitesmoke));
 }
 md-toolbar, .md-button.md-primary.md-raised {
-  @include background-image(linear-gradient(to left, crimson, cornflowerblue));
+  @include background-image(linear-gradient(to left, crimson, royalblue));
 }

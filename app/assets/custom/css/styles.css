@@ -4,17 +4,17 @@
   transition: all 2s ease-in-out;
   min-height: 48px; }
 
-.inputdemoErrors md-input-container > p {
+.inputdemoErrors .md-input-container > p {
   font-size: 0.8em;
   text-align: left;
   width: 100%; }
 
-md-content {
+body, md-content {
   background: -webkit-linear-gradient( right , lightgrey, whitesmoke);
   background: linear-gradient(to left, lightgrey, whitesmoke); }
 
 md-toolbar, .md-button.md-primary.md-raised {
-  background-image: -webkit-linear-gradient( right , crimson, cornflowerblue);
-  background-image: linear-gradient(to left, crimson, cornflowerblue); }
+  background-image: -webkit-linear-gradient( right , crimson, royalblue);
+  background-image: linear-gradient(to left, crimson, royalblue); }
 
 /*# sourceMappingURL=styles.css.map */

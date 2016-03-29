@@ -1,8 +1,18 @@
-/**
- * Created by Constantine Podlesny on 25.03.16.
- */
+    /**
+    * Created by Constantine Podlesny on 25.03.16.
+    */
+
+
 (function(){
     angular
-        .module('App', ['ngRoute', 'ngAnimate', 'ngAria', 'ngMessages', 'ngMaterial'])
+        .module('App', [
+
+            'ngRoute',
+            'ngAnimate',
+            'ngAria',
+            'ngMessages',
+            'ngMaterial'
+
+        ])
 
 }());

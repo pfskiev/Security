@@ -1,14 +1,8 @@
-/**
- * Created by Constantine Podlesny on 27.03.16.
- */
-
 (function(){
     function HeroCtrl ($scope, $http) {
         this.$scope = $scope;
         this.header = {
             title: 'Three lock',
-            style: 'md-display-3'
-
         }
         this.title = 'Please send us feedback!';
         this.userName = '';
@@ -17,6 +11,26 @@
             description: 'Nuclear Missile Defense System',
             rate: 500
         };
+
+        var sidenav = $('#sidenavToggle')
+        var toggleSidenav = Rx.Observable.fromEvent(sidenav, 'click');
+        toggleSidenav.subscribe(
+            function (x) {
+                $mdSidenav('left').toggle();
+                console.log('Next: %s', x);
+            },
+            function (err) {
+                console.log('Error: %s', err);
+            },
+            function () {
+                console.log('Completed');
+            });
+
+        sidenav.trigger('click')
+
+        //$scope.openLeftMenu = function() {
+        //    $mdSidenav('left').toggle();
+        //};
 
         var source = Rx.Observable.ofObjectChanges($scope.project);
 
